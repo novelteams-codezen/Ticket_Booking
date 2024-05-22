@@ -1,0 +1,34 @@
+- label: Address details
+  type: section
+  column: 4
+  fields:
+  - fieldName: AddressLine1
+    dataType: string
+    required: false
+    label: Address line 1
+    column: 2
+  - fieldName: AddressLine2
+    dataType: string
+    required: false
+    label: Address line 2
+    column: 2
+  - fieldName: City
+    dataType: string
+    required: false
+    label: City
+    column: 2
+  - fieldName: State
+    dataType: string
+    required: false
+    label: State
+    column: 2
+  - fieldName: PostalCode
+    dataType: string
+    required: false
+    label: Postal code
+    column: 2
+  - fieldName: Country
+    dataType: string
+    required: false
+    label: Country
+    column: 2

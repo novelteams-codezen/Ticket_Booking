@@ -1,0 +1,41 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: AddressLine1
+      dataType: string
+      label: Address line 1
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: City
+      dataType: String
+      label: City
+      column: 4
+    - fieldName: State
+      dataType: String
+      label: State
+      column: 4
+    - fieldName: PostalCode
+      dataType: String
+      label: Postal code
+      column: 4
+  cardStatus:
+    fields:
+    - fieldName: Country
+      dataType: String
+      label: Country
+      column: 4
+filter:
+  fields:
+  - fieldName: AddressLine1
+    dataType: String
+    label: Address line 1
+    column: 4
+  - fieldName: City
+    dataType: String
+    label: City
+    column: 4
+  - fieldName: State
+    dataType: String
+    label: State
+    column: 4
