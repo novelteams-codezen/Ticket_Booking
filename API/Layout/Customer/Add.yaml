@@ -1,0 +1,35 @@
+- label: Customer details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Name
+    dataType: string
+    required: false
+    length: 50
+    label: Name
+    column: 2
+  - fieldName: Email
+    dataType: string
+    required: false
+    label: Email
+    column: 2
+  - fieldName: PhoneNumber
+    dataType: string
+    required: false
+    label: Phone number
+    column: 2
+- label: Additional details
+  type: section
+  column: 4
+  fields:
+  - fieldName: CreatedOn
+    dataType: datetime
+    required: false
+    label: Created on
+    column: 2
+  - fieldName: CreatedBy
+    dataType: guid
+    required: false
+    label: Created by
+    column: 2
+    dataSource: User

@@ -1,0 +1,28 @@
+- label: Ticket details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Code
+    dataType: string
+    required: false
+    length: 100
+    label: Code
+    column: 4
+  - fieldName: ReservationId
+    dataType: guid
+    required: false
+    label: Reservation
+    column: 4
+    dataSource: Reservation
+  - fieldName: SeatId
+    dataType: guid
+    required: false
+    label: Seat
+    column: 4
+    dataSource: Seat
+  - fieldName: TicketTypeId
+    dataType: guid
+    required: false
+    label: Ticket type
+    column: 4
+    dataSource: TicketType

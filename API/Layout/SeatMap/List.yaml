@@ -1,0 +1,43 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: Name
+      dataType: String
+      label: Name
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: TotalSeats
+      dataType: numeric
+      label: Total seats
+      column: 4
+    - fieldName: CreatedOn
+      dataType: datetime
+      label: Created on
+      column: 4
+    - fieldName: CreatedBy
+      dataType: guid
+      label: Created by
+      column: 4
+      dataSource: User
+  cardStatus:
+    fields:
+    - fieldName: UpdatedOn
+      dataType: datetime
+      label: Updated on
+      column: 4
+    - fieldName: UpdatedBy
+      dataType: guid
+      label: Updated by
+      column: 4
+      dataSource: User
+filter:
+  fields:
+  - fieldName: Name
+    dataType: String
+    label: Name
+    column: 4
+  - fieldName: TotalSeats
+    dataType: numeric
+    label: Total seats
+    column: 4

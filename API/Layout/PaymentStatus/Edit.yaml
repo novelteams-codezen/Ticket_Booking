@@ -1,0 +1,38 @@
+- label: Payment status details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Name
+    dataType: string
+    required: false
+    label: Name
+    column: 2
+  - fieldName: Code
+    dataType: string
+    required: false
+    label: Code
+    column: 2
+- label: Audit information
+  type: section
+  column: 4
+  fields:
+  - fieldName: CreatedOn
+    dataType: datetime
+    required: false
+    label: Created on
+    column: 2
+  - fieldName: CreatedBy
+    dataType: guid
+    required: false
+    label: Created by
+    column: 2
+  - fieldName: UpdatedOn
+    dataType: datetime
+    required: false
+    label: Updated on
+    column: 2
+  - fieldName: UpdatedBy
+    dataType: guid
+    required: false
+    label: Updated by
+    column: 2

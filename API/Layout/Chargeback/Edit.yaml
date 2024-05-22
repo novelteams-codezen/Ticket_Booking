@@ -1,0 +1,45 @@
+- label: Chargeback details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Amount
+    dataType: numeric
+    required: false
+    label: Amount
+    column: 2
+  - fieldName: SettlementId
+    dataType: guid
+    required: false
+    label: Settlement
+    column: 2
+    dataSource: Settlement
+  - fieldName: CurrencyId
+    dataType: guid
+    required: false
+    label: Currency
+    column: 2
+    dataSource: Currency
+- label: Audit information
+  type: section
+  column: 4
+  fields:
+  - fieldName: CreatedOn
+    dataType: datetime
+    required: false
+    label: Created on
+    column: 2
+  - fieldName: CreatedBy
+    dataType: guid
+    required: false
+    label: Created by
+    column: 2
+  - fieldName: UpdatedOn
+    dataType: datetime
+    required: false
+    label: Updated on
+    column: 2
+  - fieldName: UpdatedBy
+    dataType: guid
+    required: false
+    label: Updated by
+    column: 2

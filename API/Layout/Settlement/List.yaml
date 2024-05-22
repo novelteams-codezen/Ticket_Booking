@@ -1,0 +1,45 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: Amount
+      dataType: numeric
+      label: Amount
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: MerchantAccountId
+      dataType: guid
+      label: Merchant account
+      column: 4
+      dataSource: MerchantAccount
+    - fieldName: CurrencyId
+      dataType: guid
+      label: Currency
+      column: 4
+      dataSource: Currency
+    - fieldName: CreatedOn
+      dataType: datetime
+      label: Created on
+      column: 4
+  cardStatus:
+    fields:
+    - fieldName: UpdatedOn
+      dataType: datetime
+      label: Updated on
+      column: 4
+filter:
+  fields:
+  - fieldName: Amount
+    dataType: numeric
+    label: Amount
+    column: 4
+  - fieldName: MerchantAccountId
+    dataType: guid
+    label: Merchant account
+    column: 4
+    dataSource: MerchantAccount
+  - fieldName: CurrencyId
+    dataType: guid
+    label: Currency
+    column: 4
+    dataSource: Currency

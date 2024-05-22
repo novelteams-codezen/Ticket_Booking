@@ -1,0 +1,42 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: Name
+      dataType: string
+      label: Name
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: Email
+      dataType: string
+      label: Email
+      column: 4
+    - fieldName: PhoneNumber
+      dataType: string
+      label: Phone number
+      column: 4
+    - fieldName: CreatedOn
+      dataType: datetime
+      label: Created on
+      column: 4
+  cardStatus:
+    fields:
+    - fieldName: UpdatedOn
+      dataType: datetime
+      label: Updated on
+      column: 4
+    - fieldName: UpdatedBy
+      dataType: guid
+      label: Updated by
+      column: 4
+      dataSource: User
+filter:
+  fields:
+  - fieldName: Name
+    dataType: string
+    label: Name
+    column: 4
+  - fieldName: Email
+    dataType: string
+    label: Email
+    column: 4

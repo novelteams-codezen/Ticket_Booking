@@ -1,0 +1,49 @@
+- label: Payment transaction details
+  type: section
+  column: 4
+  fields:
+  - fieldName: PaymentGatewayId
+    dataType: guid
+    required: false
+    label: Payment gateway
+    column: 2
+    dataSource: PaymentGateway
+  - fieldName: PaymentStatusId
+    dataType: guid
+    required: false
+    label: Payment status
+    column: 2
+    dataSource: PaymentStatus
+  - fieldName: Amount
+    dataType: numeric
+    required: false
+    label: Amount
+    column: 2
+- label: Additional details
+  type: section
+  column: 4
+  fields:
+  - fieldName: CardIssuerId
+    dataType: guid
+    required: false
+    label: Card issuer
+    column: 2
+    dataSource: CardIssuer
+  - fieldName: CardTypeId
+    dataType: guid
+    required: false
+    label: Card type
+    column: 2
+    dataSource: CardType
+  - fieldName: TransactionFeeId
+    dataType: guid
+    required: false
+    label: Transaction fee
+    column: 2
+    dataSource: TransactionFee
+  - fieldName: RefundId
+    dataType: guid
+    required: false
+    label: Refund
+    column: 2
+    dataSource: Refund

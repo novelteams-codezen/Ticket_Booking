@@ -1,0 +1,45 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: Code
+      dataType: String
+      label: Code
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: ReservationId
+      dataType: guid
+      label: Reservation
+      column: 4
+      dataSource: Reservation
+    - fieldName: SeatId
+      dataType: guid
+      label: Seat
+      column: 4
+      dataSource: Seat
+    - fieldName: TicketTypeId
+      dataType: guid
+      label: Ticket type
+      column: 4
+      dataSource: TicketType
+  cardStatus:
+    fields:
+    - fieldName: CreatedOn
+      dataType: DateTime
+      label: Created on
+      column: 4
+    - fieldName: UpdatedOn
+      dataType: DateTime
+      label: Updated on
+      column: 4
+filter:
+  fields:
+  - fieldName: Code
+    dataType: String
+    label: Code
+    column: 4
+  - fieldName: ReservationId
+    dataType: guid
+    label: Reservation
+    column: 4
+    dataSource: Reservation

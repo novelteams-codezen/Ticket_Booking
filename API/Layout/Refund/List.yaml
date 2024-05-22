@@ -1,0 +1,46 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: PaymentTransactionId
+      dataType: guid
+      label: Payment transaction
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: Amount
+      dataType: numeric
+      label: Amount
+      column: 4
+    - fieldName: Name
+      dataType: string
+      label: Name
+      column: 4
+    - fieldName: Code
+      dataType: string
+      label: Code
+      column: 4
+  cardStatus:
+    fields:
+    - fieldName: CreatedOn
+      dataType: datetime
+      label: Created on
+      column: 4
+    - fieldName: UpdatedOn
+      dataType: datetime
+      label: Updated on
+      column: 4
+filter:
+  fields:
+  - fieldName: PaymentTransactionId
+    dataType: guid
+    label: Payment transaction
+    column: 4
+    dataSource: PaymentTransaction
+  - fieldName: Amount
+    dataType: numeric
+    label: Amount
+    column: 4
+  - fieldName: Name
+    dataType: string
+    label: Name
+    column: 4

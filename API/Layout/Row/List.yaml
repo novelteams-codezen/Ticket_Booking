@@ -1,0 +1,43 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: Name
+      dataType: String
+      label: Name
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: SectionId
+      dataType: guid
+      label: Section
+      column: 4
+      dataSource: Section
+    - fieldName: CreatedOn
+      dataType: datetime
+      label: Created on
+      column: 4
+    - fieldName: UpdatedOn
+      dataType: datetime
+      label: Updated on
+      column: 4
+  cardStatus:
+    fields:
+    - fieldName: CreatedBy
+      dataType: guid
+      label: Created by
+      column: 4
+    - fieldName: UpdatedBy
+      dataType: guid
+      label: Updated by
+      column: 4
+filter:
+  fields:
+  - fieldName: Name
+    dataType: String
+    label: Name
+    column: 4
+  - fieldName: SectionId
+    dataType: guid
+    label: Section
+    column: 4
+    dataSource: Section

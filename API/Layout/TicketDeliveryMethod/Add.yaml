@@ -1,0 +1,40 @@
+- label: Ticket delivery method details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Name
+    dataType: string
+    required: false
+    length: 50
+    label: Name
+    column: 4
+  - fieldName: Description
+    dataType: string
+    required: false
+    length: 255
+    label: Description
+    column: 4
+- label: Audit information
+  type: section
+  column: 4
+  fields:
+  - fieldName: CreatedOn
+    dataType: DateTime
+    required: false
+    label: Created on
+    column: 4
+  - fieldName: CreatedBy
+    dataType: guid
+    required: false
+    label: Created by
+    column: 4
+  - fieldName: UpdatedOn
+    dataType: DateTime
+    required: false
+    label: Updated on
+    column: 4
+  - fieldName: UpdatedBy
+    dataType: guid
+    required: false
+    label: Updated by
+    column: 4

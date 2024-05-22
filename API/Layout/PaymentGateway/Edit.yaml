@@ -1,0 +1,14 @@
+- label: PaymentGateway details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Name
+    dataType: string
+    required: false
+    label: Name
+    column: 2
+  - fieldName: Code
+    dataType: string
+    required: false
+    label: Code
+    column: 2

@@ -1,0 +1,47 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: Id
+      dataType: guid
+      label: Id
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: PaymentGatewayId
+      dataType: guid
+      required: false
+      label: Payment gateway
+      column: 4
+      dataSource: PaymentGateway
+    - fieldName: PaymentStatusId
+      dataType: guid
+      required: false
+      label: Payment status
+      column: 4
+      dataSource: PaymentStatus
+    - fieldName: Amount
+      dataType: numeric
+      label: Amount
+      column: 4
+  cardStatus:
+    fields:
+    - fieldName: CreatedOn
+      dataType: datetime
+      label: Created on
+      column: 4
+    - fieldName: UpdatedOn
+      dataType: datetime
+      label: Updated on
+      column: 4
+filter:
+  fields:
+  - fieldName: PaymentGatewayId
+    dataType: guid
+    label: Payment gateway
+    column: 4
+    dataSource: PaymentGateway
+  - fieldName: PaymentStatusId
+    dataType: guid
+    label: Payment status
+    column: 4
+    dataSource: PaymentStatus

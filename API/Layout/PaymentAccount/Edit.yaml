@@ -1,0 +1,34 @@
+- label: Payment account details
+  type: section
+  column: 4
+  fields:
+  - fieldName: BillingAddressId
+    dataType: guid
+    required: false
+    label: Billing address
+    column: 3
+    dataSource: BillingAddress
+  - fieldName: CreatedBy
+    dataType: guid
+    required: false
+    label: Created by
+    column: 3
+- label: Additional details
+  type: section
+  column: 4
+  fields:
+  - fieldName: CreatedOn
+    dataType: datetime
+    required: false
+    label: Created on
+    column: 3
+  - fieldName: UpdatedOn
+    dataType: datetime
+    required: false
+    label: Updated on
+    column: 3
+  - fieldName: UpdatedBy
+    dataType: guid
+    required: false
+    label: Updated by
+    column: 3
