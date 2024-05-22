@@ -1,0 +1,180 @@
+- name: Roles & Permissions
+  icon: fa-key
+  items:
+    - name: Role
+      description: Role management and administration.
+      route: /role
+      icon: fa-user-tag
+    - name: Role entitlement
+      description: Role entitlement management and administration.
+      route: /roleEntitlement
+      icon: fa-user-shield
+
+- name: Ticketing
+  icon: fa-ticket-alt
+  items:
+    - name: Ticket
+      description: Ticket management and administration.
+      route: /ticket
+      icon: fa-ticket-alt
+    - name: Reservation
+      description: Reservation management and administration.
+      route: /reservation
+      icon: fa-calendar
+    - name: Event
+      description: Event management and administration.
+      route: /event
+      icon: fa-calendar-times
+    - name: Venue
+      description: Venue management and administration.
+      route: /venue
+      icon: fa-map-marker-alt
+    - name: Seat
+      description: Seat management and administration.
+      route: /seat
+      icon: fa-chair
+    - name: Ticket type
+      description: Ticket type management and administration.
+      route: /ticketType
+      icon: fa-tags
+    - name: Pricing
+      description: Pricing management and administration.
+      route: /pricing
+      icon: fa-dollar-sign
+    - name: Event schedule
+      description: Event schedule management and administration.
+      route: /eventSchedule
+      icon: fa-calendar-check
+
+- name: Customers & Payments
+  icon: fa-users-cog
+  items:
+    - name: Customer
+      description: Customer management and administration.
+      route: /customer
+      icon: fa-user-circle
+    - name: Payment
+      description: Payment management and administration.
+      route: /payment
+      icon: fa-credit-card
+    - name: Payment method
+      description: Payment method management and administration.
+      route: /paymentMethod
+      icon: fa-money-check
+
+- name: Discounts & Promotions
+  icon: fa-percent
+  items:
+    - name: Discount
+      description: Discount management and administration.
+      route: /discount
+      icon: fa-tag
+    - name: Promo code
+      description: Promo code management and administration.
+      route: /promoCode
+      icon: fa-gift
+
+- name: Events & Organizers
+  icon: fa-calendar-alt
+  items:
+    - name: Event category
+      description: Event category management and administration.
+      route: /eventCategory
+      icon: fa-list
+    - name: Organizer
+      description: Organizer management and administration.
+      route: /organizer
+      icon: fa-user-friends
+
+- name: Financial
+  icon: fa-money-bill-wave
+  items:
+    - name: Refund policy
+      description: Refund policy management and administration.
+      route: /refundPolicy
+      icon: fa-file-invoice
+    - name: Refund
+      description: Refund management and administration.
+      route: /refund
+      icon: fa-hand-holding-usd
+    - name: Chargeback
+      description: Chargeback management and administration.
+      route: /chargeback
+      icon: fa-undo-alt
+    - name: Settlement
+      description: Settlement management and administration.
+      route: /settlement
+      icon: fa-handshake
+    - name: Currency
+      description: Currency management and administration.
+      route: /currency
+      icon: fa-coins
+    - name: Payment account
+      description: Payment account management and administration.
+      route: /paymentAccount
+      icon: fa-university
+    - name: Billing address
+      description: Billing address management and administration.
+      route: /billingAddress
+      icon: fa-address-card
+    - name: Merchant account
+      description: Merchant account management and administration.
+      route: /merchantAccount
+      icon: fa-store
+
+- name: Seating
+  icon: fa-th-large
+  items:
+    - name: Section
+      description: Section management and administration.
+      route: /section
+      icon: fa-columns
+    - name: Row
+      description: Row management and administration.
+      route: /row
+      icon: fa-sort-amount-down
+    - name: Seat map
+      description: Seat map management and administration.
+      route: /seatMap
+      icon: fa-map
+
+- name: Ticket Holder & Delivery
+  icon: fa-id-card
+  items:
+    - name: Ticket holder
+      description: Ticket holder management and administration.
+      route: /ticketHolder
+      icon: fa-id-badge
+    - name: Ticket delivery method
+      description: Ticket delivery method management and administration.
+      route: /ticketDeliveryMethod
+      icon: fa-shipping-fast
+
+- name: Payment Transactions
+  icon: fa-exchange-alt
+  items:
+    - name: Payment transaction
+      description: Payment transaction management and administration.
+      route: /paymentTransaction
+      icon: fa-exchange-alt
+    - name: Payment gateway
+      description: Payment gateway management and administration.
+      route: /paymentGateway
+      icon: fa-lock
+    - name: Payment status
+      description: Payment status management and administration.
+      route: /paymentStatus
+      icon: fa-check-circle
+    - name: Card issuer
+      description: Card issuer management and administration.
+      route: /cardIssuer
+      icon: fa-id-card-alt
+    - name: Card type
+      description: Card type management and administration.
+      route: /cardType
+      icon: fa-credit-card
+    - name: Transaction fee
+      description: Transaction fee management and administration.
+      route: /transactionFee
+      icon: fa-hand-holding-usd
+

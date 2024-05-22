@@ -1,0 +1,21 @@
+- label: Transaction fee details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Name
+    dataType: string
+    required: false
+    length: 100
+    label: Name
+    column: 2
+  - fieldName: Code
+    dataType: string
+    required: false
+    length: 100
+    label: Code
+    column: 2
+  - fieldName: Amount
+    dataType: numeric
+    required: false
+    label: Amount
+    column: 2
